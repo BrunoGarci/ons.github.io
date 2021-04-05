@@ -1,0 +1,442 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+html,body,div,{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #f4623a;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #f4623a;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; Brush Script MT,Cursive;
+}
+*,
+*::before,
+*::after {
+*{box-sizing:border-box;}/*!sc*/
+
+
+
+
+  a{
+ text-decoration: none;
+}
+
+
+}
+html {
+  font-family: Brush Script MT,Cursive;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
+}
+
+body {
+  margin: 0;
+  width:100%;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+ 
+.card-escala
+{
+width: 100%;
+margin: 0;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.rodape
+{
+width:100%;
+height:50px;
+float: left;
+background-color:black;
+position: relative;
+top: 0px; 
+}
+
+h2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-style: bold;
+  position: relative;
+  left: 0px;
+  top: 5px;
+}
+h3
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  font-family:  white;
+  font-style: bold;
+  font-size: 16px;
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+h4 
+{
+  width:60%;
+  height:20px;
+  color: white;
+  font-family:  Brush Script MT,Cursive;
+  font-style: bold;
+  font-size: 15px;
+  position: relative;
+  left: 30% ;
+  top: 5px;
+}
+
+
+
+.n{
+position: relative;
+top:0px;
+  
+}
+
+.nomeloja
+{
+  border: 5px;
+  background-color: white;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  font-family:  Brush Script MT,Cursive;
+  font-style: bold;
+  font-style: italic;
+  text-shadow: 2px 1px blue;
+  font-size: 45px;
+  position: relative;
+  top: 10px; left: 80px; width: 600px; height: 0px; bottom: 0px;
+  text-decoration: none;
+  }
+.c{
+  height: 0px;
+  width: 300px;
+  position: relative;
+  top:0px;
+  left: 0px;
+  height:0px;
+  bottom: 0px;
+
+}
+.d
+{
+margin-top: 0px;
+margin-bottom: 0px;
+width:100%;
+height: 70px;
+background-color: yellow;
+background-position: relative;
+left: 0px;
+top: 30px;
+}
+
+.cabecalho{
+background-color: black;
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+width:100%;
+height: 50px;
+top: 0px; 
+}
+
+.banheiro{
+position: relative;
+top: 10px; 
+float: left;
+width:108px;
+height: 20px;
+left: 0px;
+
+}
+.banheira{
+
+position: relative;
+top: 0px; 
+float: left;
+width:50px;
+height: 20px;
+left: 10px;
+
+}
+
+.cozinha {
+position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 50px;
+}
+.torneira{
+position: relative;
+top: 10px; 
+float: left;
+width:50px;
+height: 20px;
+left: 60px;
+
+}
+.hidraulica {
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 110px;
+}
+.encanamento{
+position: relative;
+top: 10px; 
+float: left;
+width:50px;
+height: 20px;
+left: 115px;
+}
+
+.lavanderia {
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 140px;
+}
+.tanquinho {
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 210px;
+}
+.acessibilidade {
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 185px;
+}
+.acessivel 
+{
+position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 250px;
+
+}
+
+.ofertas  {
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 220px;
+}
+.sale
+{
+  position: relative;
+top: 10px; 
+float: left;
+width:100px;
+height: 50px;
+left: 280px;
+}
+  .fotosa
+  {
+width:35%;
+height: 455px;
+float: left;
+background: url("../assets/fotosa.jpg");
+background-repeat: no-repeat;
+background-size: 100% 455px;
+background-position: relative;
+left: 0px;
+top: 100px;
+}
+.fotosb
+  {
+width:30%;
+height: 455px;
+float: left;
+background: url("../assets/fotosb.jpg");
+background-repeat: no-repeat;
+background-size: 100% 455px;
+background-position: relative;
+left: 0px;
+top: 100px;
+}
+.fotosc
+  {
+width:35%;
+height: 455px;
+float: left;
+background: url("../assets/fotosc.jpg");
+background-repeat: no-repeat;
+background-size: 100% 455px;
+background-position: relative;
+left: 0px;
+top: 100px;
+}
+h4 
+{
+  width:60%;
+  height:20px;
+  color: white;
+  font-family:  Brush Script MT,Cursive;
+  font-style: bold;
+  font-size: 10px;
+  position: relative;
+  left: 30% ;
+}
+.sobre{
+width:50px;
+position: relative;
+top:20px; 
+float: left;
+width:150px;
+height: 20px;
+left: 550px;
+}
+.um{
+  width:50px;
+position: relative;
+top: 29px; 
+float: left;
+width:50px;
+height: 20px;
+left: 425px;
+}
+
+.minhaconta
+{
+width:100px;
+position: relative;
+top: 20px; 
+float: left;
+width:120px;
+height: 20px;
+left: 490px;
+}
+.dois{
+width:50px;
+position: relative;
+top: 29px; 
+float:left;
+width:50px;
+height: 20px;
+left: 390px;
+}
+
+.pedido
+{
+width:50px;
+position: relative;
+top: 20px; 
+float: left;
+width:50px;
+height: 20px;
+left: 485px;
+}
+.tres{
+  width:50px;
+position: relative;
+top: 30px; 
+float:left;
+width:50px;
+height: 20px;
+left: 460px;
+
+}
+.rastrear {
+  width:50px;
+position: relative;
+top: 20px; 
+float: left;
+width:50px;
+height: 20px;
+left: 510px;
+}
+
+.quatro{
+  width:50px;
+position: relative;
+top: 30px; 
+float:left;
+width:50px;
+height: 20px;
+left: 480px;
+
+
+}
+.login {
+width:50px;
+position: relative;
+top: 20px; 
+float: left;
+width:50px;
+height: 20px;
+left: 550px;
+}
+.cinco{
+width:50px;
+position: relative;
+top: 32px; 
+float:left;
+width:50px;
+height: 15px;
+left: 520px;
+}
